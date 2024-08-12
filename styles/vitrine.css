@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+.vitrine__titulo{
+    background-color: var(--1st-color);
+    font-weight: 700;
+    font-size: 1.125rem ;
+    color: var(--2nd-color);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0 0.5rem;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+
+.swiper-pagination{
+    position: initial;
+    margin: 0.5rem 0;
+}
+
+.card{
+    background-color: var(--1st-color);
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card__conteudo{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card__descricao__icone{
+    padding-bottom: 0.5rem;
+}
+
+.card__descricao__chamada{
+    font-weight: 700;
+    color:var(--2nd-color);
+    margin-bottom: 0.5rem;
+}
+
+.card__descricao__titulo{
+    font-weight: 700;
+    font-size:1.125rem ;
+    color: var(--4th-color);
+    margin-bottom: 0.5rem;
+}
+
+.card__descricao__texto{
+    font-weight: 400;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+    color: var(--5th-color);
+}
+
+.card__botoes{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__botoes__loja{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__botoes__loja__item{
+    margin-right: 0.5rem;
+}
+
+.botao__loja{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.botao__saiba-mais{
+    display: inline-block;
+    background-color: var(--2nd-color);
+    padding: 1rem 1.7rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--1st-color);
+    text-align: center;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px){
+
+    .vitrine__titulo{
+        font-size: 1.6rem ;
+        padding: 3rem 0 1.5rem;
+    }
+
+    .swiper{
+        width: 70%;
+    }
+
+    .swiper-pagination{
+        margin: 1rem 0 1.5rem;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+        padding: 5px;
+        background-color: #ffffffcc;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+    }
+
+    .card{
+        width:50%;
+        margin: 2rem auto;
+    }
+    .botao__saiba-mais:hover{
+        background-color: var(--2nd-color-hvr);
+    }
+}
+
+@media screen and (min-width: 1728px){
+
+    .vitrine__prateleira{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin: 3rem 10% 7rem;
+    }
+
+    .swiper{
+        width: 50%;
+        margin: 0 2rem;
+    }
+
+    .swiper-pagination{
+        position: initial;
+        margin: 1rem 0;
+    }
+
+    .card{
+        margin: 1.5rem 0 0;
+        width: 35%;
+    }
+}

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import url(styles/cabecalho.css);
+@import url(styles/banner-pesquisa.css);
+@import url(styles/vitrine.css);
+@import url(styles/topicos.css);
+@import url(styles/cadastro-email.css);
+@import url(styles/rodape.css);
+
+:root{
+    --bg-color:#EBECEE;  /*Off white*/
+    --1st-color:#FFFFFF; /*Branco*/
+    --2nd-color:#EB9B00; /*Laranja*/
+    --2nd-color-hvr:#ffbb33; /*Laranja-hover*/
+    --3rd-color: linear-gradient(97.54deg, #194A6D 35.49%, #326589 165.37%); /*gradiente azul*/
+    --4th-color: #002F52; /*Azul*/
+    --5th-color: #000000; /*Preto*/
+
+    --fonte-principal: "Poppins", sans-serif;
+    --fonte-logotipo: "Josefin Sans", sans-serif;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: var(--fonte-principal);
+    line-height: 1.1rem;
+}
