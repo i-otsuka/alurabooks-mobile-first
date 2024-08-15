@@ -1,5 +1,7 @@
 # alurabooks-mobile-first
 Projeto desenvolvido no curso HTML e CSS Mobile First da Alura.
+Instrutora @MonicaHillman
+
 As páginas já possuem alterações em relação ao apresentado no vídeo:
 - Construção do botão hamburguer e menu suspenso;
 - Efeitos de :hover no menu;
